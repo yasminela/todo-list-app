@@ -6,7 +6,7 @@
 
 Une application moderne de gestion de tâches construite avec **React** et **Vite**. Gérez vos tâches quotidiennes avec une interface utilisateur intuitive et élégante.
 
-![Taskety App Screenshot](./Screenshot todo-lis-app.png) *Vous pouvez ajouter une capture d'écran ici*
+![Taskety App Screenshot](./Screenshot-todo-lis-app.png) *Vous pouvez ajouter une capture d'écran ici*
 
 ## ✨ Fonctionnalités
 
