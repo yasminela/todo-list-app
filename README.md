@@ -1,16 +1,69 @@
-# React + Vite
+# 📝 Taskety - To Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Taskety App](https://img.shields.io/badge/React-18.2.0-blue)
+![Taskety App](https://img.shields.io/badge/Vite-4.4.5-purple)
+![Taskety App](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+Une application moderne de gestion de tâches construite avec **React** et **Vite**. Gérez vos tâches quotidiennes avec une interface utilisateur intuitive et élégante.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Taskety App Screenshot](./screenshot.png) *Vous pouvez ajouter une capture d'écran ici*
 
-## React Compiler
+## ✨ Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👤 Authentification Utilisateur
+- **Inscription** : Créez un compte avec email et mot de passe
+- **Connexion** : Accédez à votre espace personnel sécurisé
+- **Déconnexion** : Quittez votre session en un clic
+- **Données privées** : Chaque utilisateur possède sa propre liste de tâches
 
-## Expanding the ESLint configuration
+### ✅ Gestion des Tâches
+- **Ajout de tâches** : Créez de nouvelles tâches facilement
+- **Marquage** : Cochez les tâches terminées
+- **Suppression** : Supprimez les tâches dont vous n'avez plus besoin
+- **Compteur** : Visualisez le nombre de tâches complétées en temps réel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Organisation Avancée
+- **Filtres intelligents** :
+  - 📋 **Toutes** : Voir l'ensemble de vos tâches
+  - 🟢 **Actives** : Tâches non complétées uniquement
+  - ✅ **Complétées** : Tâches déjà terminées
+  - 🗑️ **Supprimées** : Corbeille avec option de restauration
+
+### 🗑️ Gestion de la Corbeille
+- **Restauration** : Récupérez les tâches supprimées accidentellement
+- **Suppression permanente** : Effacez définitivement les tâches
+
+### 📈 Statistiques en Direct
+- Nombre total de tâches
+- Tâches complétées
+- Tâches en attente
+- Tâches supprimées
+
+## 🚀 Technologies Utilisées
+
+- **Frontend**: React 18.2.0
+- **Build Tool**: Vite 4.4.5
+- **Styling**: CSS pur avec animations
+- **State Management**: React Hooks (useState, useEffect)
+- **Version Control**: Git
+
+## 🎯 Objectifs de l'Application
+
+Taskety a été conçue pour offrir une expérience simple et efficace de gestion de tâches :
+- Interface utilisateur épurée
+- Performance optimale
+- Accessibilité
+- Expérience utilisateur fluide
+
+## 💻 Installation et Utilisation
+
+### Prérequis
+- Node.js (version 14 ou supérieure)
+- npm (inclus avec Node.js)
+
+### Installation
+
+1. **Clonez le dépôt**
+```bash
+git clone https://github.com/yasmine/todo-list-app.git
+cd todo-list-app
